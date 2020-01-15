@@ -18,7 +18,7 @@ Step 1. Add the JitPack repository to your root build.gradle at the end of repos
 Step 2 : Add the dependency in your app level build.gradle
 ```
 	dependencies {
-	        implementation 'com.github.yashovardhan99:TimeIt:1.2.0'
+	        implementation 'com.github.hissaan:TimeCounter:1.2'
 	}
 ```
  
