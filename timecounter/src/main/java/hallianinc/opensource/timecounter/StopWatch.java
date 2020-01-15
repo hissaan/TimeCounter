@@ -9,7 +9,7 @@ public class StopWatch {
     boolean isRunning;// to keep track of the state of handler to avoid creating multiple threads.
     private int time = 0;
 
-    StopWatch(TextView textView){// this textview would be updated by the stop-watch
+    public StopWatch(TextView textView){// this textview would be updated by the stop-watch
         this.textView = textView;
     }
 
